@@ -1,0 +1,12 @@
+<h1>API practice </h1>
+
+<app-button (click)="functioncall($event)" [label]="label"></app-button>
+
+<ul *ngFor="let list of listData">
+  <li>
+    <!-- <p>{{list.userId}}</p> -->
+    <p>{{list.id}}</p>
+    <p>{{list.title}}</p>
+  </li>
+</ul>
+<router-outlet></router-outlet>
