@@ -2,5 +2,6 @@
 
 ## Built With:
 - Angular 8
+- Typescript
 
 
